@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Участок</title>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
+<script defer="defer" src="./assets/scripts/main.js"></script><link href="./assets/styles/main..css" rel="stylesheet"></head>
+<body>
+    <main>
+        <section class="area">
+            <div class="container">
+                <div class="area__heading-wrap">
+                    <span class="area__heading-wrap__span">В продаже</span>
+                    <h1 class="area__heading-wrap__heading">участок №33</h1>
+                </div>
+                <div class="area__info-wrapper">
+                    <div class="area__info-wrapper__top">
+                        <div class="area__info-wrapper__top__item">
+                            <span class="area__info-wrapper__top__item__span">площадь</span>
+                            <span class="area__info-wrapper__top__item__count">10 соток</span>
+                        </div>
+                        <div class="area__info-wrapper__top__item">
+                            <span class="area__info-wrapper__top__item__span">цена</span>
+                            <a href="" class="area__info-wrapper__top__item__button">Узнать стоимость</a>
+                        </div>
+                    </div>
+                    <div class="area__info-wrapper__bot">
+                        <div class="area__info-wrapper__bot__wrapper">
+                            <div class="area__info-wrapper__bot__wrapper__item">
+                                <a href="" class="area__info-wrapper__bot__wrapper__item__link">Скачать pdf</a>
+                                <a href="" class="area__info-wrapper__bot__wrapper__item__link">Поделиться</a>
+                            </div>
+                        </div>
+                        <div class="area__info-wrapper__bot__wrapper">
+                            <span class="area__info-wrapper__bot__wrapper__text">
+                                Ленинградская область, Приозерский район, коттеджный посёлок Горки
+                            </span>
+                            <a href="" class="area__info-wrapper__bot__wrapper__text-link">
+                                Проложить маршрут                           
+                            </a>
+                        </div>
+                        <div class="area__info-wrapper__bot__wrapper">
+                            <span class="area__info-wrapper__bot__wrapper__views">
+                                10 просмотров                            
+                            </span>
+                        </div>
+                        <div class="area__info-wrapper__bot__wrapper">
+                            <a href="" class="area__info-wrapper__bot__wrapper__mail__link">
+                                Отправить на e-mail
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="area__body">
+                    <div class="area__body__wrapper">
+                        <div class="area__body__wrapper__images">
+                            <div class="wrap-wrap">
+                                <ul class="area__body__wrapper__images__tabs">
+                                    <li class="area__body__wrapper__images__tabs__item _tab-item-active" data-name="slider">ФОТОГРАФИИ (<span class="slides-counter"></span>)</li>
+                                    <li class="area__body__wrapper__images__tabs__item" data-name="plan">ПЛАНИРОВКА</li>
+                                    <li class="area__body__wrapper__images__tabs__item" data-name="projects">Проекты</li>
+                                </ul>
+                            </div>
+
+                            <div class="area__body__wrapper__images__tab-box" data-name="slider">
+                                <div class="area__body__wrapper__images__slider">
+                                    <a data-fancybox href="./assets/img/area1..jpg" class="area__body__wrapper__images__slider__item">
+                                        <img src="assets/img/area1..jpg" alt="" class="area__body__wrapper__images__slider__item__img">
+                                        <button class="area__body__wrapper__images__slider__item__button">
+                                            <img src="assets/img/zoom..svg" alt="">
+                                        </button>
+                                    </a>
+                                    <a data-fancybox href="./assets/img/area1..jpg" class="area__body__wrapper__images__slider__item">
+                                        <img src="assets/img/area1..jpg" alt="" class="area__body__wrapper__images__slider__item__img">
+                                        <button class="area__body__wrapper__images__slider__item__button">
+                                            <img src="assets/img/zoom..svg" alt="">
+                                        </button>
+                                    </a>
+                                </div>
+                                <div class="area__body__wrapper__images__slider-controls">
+                                    <button class="area__slider-button area-prev">
+                                        <img src="assets/img/arrow..svg" alt="">
+                                    </button>
+                                    <button class="area__slider-button area-next">
+                                        <img src="assets/img/arrow..svg" alt="">
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="area__body__wrapper__images__tab-box _tab-box-hidden" data-name="plan">
+                                План
+                            </div>
+                            <div class="area__body__wrapper__images__tab-box _tab-box-hidden" data-name="projects">
+                                Проекты
+                            </div>
+                        </div>
+                        <div class="area__body__wrapper-form">
+                            <form action="" class="area__body__wrapper-form__form">
+                                <h2 class="area__body__wrapper-form__heading">Записаться на просмотр</h2>
+                                <input type="text" class="area__body__wrapper-form__input" placeholder="Ваше имя" required>
+                                <input type="email" class="area__body__wrapper-form__input" placeholder="E-mail" required>
+                                <input type="text" class="area__body__wrapper-form__input phone" placeholder="Телефон" required>
+                                <button class="area__body__wrapper-form__submit" type="submit">Записаться</button>
+                            </form>
+                        </div>
+                        <div class="area__body__wrapper__plan-box">
+                            <h2 class="area__body__wrapper__plan-box__heading">Планировка</h2>
+                            <div class="area__body__wrapper__plan-box__img-box">
+                                <img src="assets/img/plan..png" alt="">
+                                <a href="" class="area__body__wrapper__plan-box__img-box__link">Посмотреть на генплане</a>
+                            </div>
+                        </div>
+                        <div class="area__body__wrapper__area-info">
+                            <hr class="area__line">
+                            <span class="area__body__wrapper__area-info__heading">Участок</span>
+                            <ul class="area__body__wrapper__area-info__list">
+                                <li class="area__body__wrapper__area-info__list__item">
+                                    <span class="area__body__wrapper__area-info__list__item__heading">Вид участка</span>
+                                    Индивидуальное жилищное строительство
+                                </li>
+                                <li class="area__body__wrapper__area-info__list__item">
+                                    <span class="area__body__wrapper__area-info__list__item__heading">Тип дороги</span>
+                                    Федеральная трасса / проселочная дорога
+                                </li>
+                                <li class="area__body__wrapper__area-info__list__item">
+                                    <span class="area__body__wrapper__area-info__list__item__heading">Дорожное покрытие</span>
+                                    Индивидуальное жилищное строительство
+                                </li>
+                            </ul>
+                            <hr class="area__line">
+                            <span class="area__body__wrapper__area-info__heading">Дистанции</span>
+                            <ul class="area__body__wrapper__area-info__list">
+                                <li class="area__body__wrapper__area-info__list__item">
+                                    20 километров до Москвы
+                                </li>
+                                <li class="area__body__wrapper__area-info__list__item">
+                                    150 километров до Лондона
+                                </li>
+                            </ul>
+                            <hr class="area__line">
+                            <span class="area__body__wrapper__area-info__heading">Участок</span>
+                            <ul class="area__body__wrapper__area-info__list">
+                                <li class="area__body__wrapper__area-info__list__item">
+                                    Электричество: Да
+                                </li>
+                                <li class="area__body__wrapper__area-info__list__item">
+                                    Водопровод: Да
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="area__body__wrapper">
+                        <!-- <div class="area__body__wrapper__plan-box">
+                            <h2 class="area__body__wrapper__plan-box__heading">Планировка</h2>
+                            <div class="area__body__wrapper__plan-box__img-box">
+                                <img src="./assets/img/plan.png" alt="">
+                                <a href="" class="area__body__wrapper__plan-box__img-box__link">Посмотреть на генплане</a>
+                            </div>
+                        </div>
+                        <div class="area__body__wrapper__area-info">
+                            <hr class="area__line">
+                            <span class="area__body__wrapper__area-info__heading">Участок</span>
+                            <ul class="area__body__wrapper__area-info__list">
+                                <li class="area__body__wrapper__area-info__list__item">
+                                    <span class="area__body__wrapper__area-info__list__item__heading">Вид участка</span>
+                                    Индивидуальное жилищное строительство
+                                </li>
+                                <li class="area__body__wrapper__area-info__list__item">
+                                    <span class="area__body__wrapper__area-info__list__item__heading">Тип дороги</span>
+                                    Федеральная трасса / проселочная дорога
+                                </li>
+                                <li class="area__body__wrapper__area-info__list__item">
+                                    <span class="area__body__wrapper__area-info__list__item__heading">Дорожное покрытие</span>
+                                    Индивидуальное жилищное строительство
+                                </li>
+                            </ul>
+                            <hr class="area__line">
+                            <span class="area__body__wrapper__area-info__heading">Дистанции</span>
+                            <ul class="area__body__wrapper__area-info__list">
+                                <li class="area__body__wrapper__area-info__list__item">
+                                    20 километров до Москвы
+                                </li>
+                                <li class="area__body__wrapper__area-info__list__item">
+                                    150 километров до Лондона
+                                </li>
+                            </ul>
+                            <hr class="area__line">
+                            <span class="area__body__wrapper__area-info__heading">Участок</span>
+                            <ul class="area__body__wrapper__area-info__list">
+                                <li class="area__body__wrapper__area-info__list__item">
+                                    Электричество: Да
+                                </li>
+                                <li class="area__body__wrapper__area-info__list__item">
+                                    Водопровод: Да
+                                </li>
+                            </ul>
+                        </div> -->
+                    </div>
+                    <div class="area__body__wrapper">
+                        <div class="area__body__wrapper__desc">
+                            <h2 class="area__body__wrapper__desc__heading">Описание</h2>
+                            <p class="area__body__wrapper__desc__text">
+                                Уникальный участок в охраняемом коттеджном поселке бизнес класса. Лучшая локация в поселке. Ровный участок, прямоугольной формы, частично с лесными деревьями. Единственный участок в продаже крайний к лесу. Коммуникации по границе участка.
+                                <br><br>
+                                На территории поселка множество зеленых насаждений, красивый благоустроенный парк для приятного времяпровождения. Здесь разбиты аллеи, стоят скамейки, строится игровой комплекс для детей. Удаленность поселения от больших производственных комплексов и автомобильного шоссе, обеспечивает людям чистую экологию и полную тишину.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="area__body__wrapper">
+                        <div class="area__body__wrapper__add">
+                            <h2 class="area__body__wrapper__add__heading">Дополнительно</h2>
+                            <span class="area__body__wrapper__add__span">
+                                <span>Координаты</span>
+                                60.678783, 30.226771
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="area__form-wrap">
+                <div class="container">
+                    <form action="" class="area__form">
+                        <h2 class="area__form__heading">Записаться на просмотр</h2>
+                        <div class="area__form__wrapper">
+                            <div class="area__form__wrapper__input-box">
+                                <input type="text" class="area__form__wrapper__input" placeholder="Ваше имя" required>
+                                <input type="email" class="area__form__wrapper__input" placeholder="E-mail" required>
+                                <input type="text" class="area__form__wrapper__input phone" placeholder="Телефон" required>
+                                <button class="area__form__submit" type="submit">Записаться</button>
+                            </div>
+                            <p class="area__form__wrapper__par">
+                                Нажимая на кнопку «Оставить заявку», вы соглашаетесь на обработку персональных данных в соответствии с 
+                                <a href="">пользовательским соглашением</a>
+                            </p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
